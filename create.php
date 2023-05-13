@@ -45,68 +45,68 @@
 			  		<form class="row g-3 needs-validation" novalidate method="post" >
 			  			<div class="table-row">
 			  				<label for="validationName" class="form-label">First Name</label>
-			  				<input type="text" id="validationName" name="name" class="form-control" minlength="3" placeholder="Name" value="" required>
+			  				<input type="text" id="validationName" name="name" class="form-control" minlength="3" placeholder="First Name" value="" required>
 
 			  			</div>  	
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Last Name</label>
-			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="text" id="validationUsername" name="Last Name" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Position</label>
-			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="text" id="validationUsername" name="Position" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Phone Number</label>
-			  				<input type="number" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="number" id="validationUsername" name="Phone Number" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Whatsapp Number</label>
-			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="text" id="validationUsername" name="Whatsapp Number" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Email</label>
-			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="text" id="validationUsername" name="Email" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Facebook</label>
-			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="text" id="validationUsername" name="Facebook" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationUsername" class="form-label">Twiter</label>
-			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<input type="text" id="validationUsername" name="Twiter" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 	
 			  			</div>  
 
 			  			<div class="table-row">
 			  				<label for="validationEmail" class="form-label">Instagram</label>
-			  				<input type="email" id="validationEmail" name="email" class="form-control" placeholder="Email" value="" required>
+			  				<input type="email" id="validationEmail" name="Instagram" class="form-control" placeholder="Email" value="" required>
 
 			  			</div>  
 			  			<div class="table-row">
 			  				<label for="validationPhone" class="form-label">Tiktok</label>
-			  				<input type="tel" id="validationPhone" name="phone" minlength="3" class="form-control" placeholder="Phone" value="" required>
+			  				<input type="tel" id="validationPhone" name="Tiktok" minlength="3" class="form-control" placeholder="Phone" value="" required>
 
 			  			</div> 		
 			  			<div class="table-row">
 			  				<label for="validationWebsite" class="form-label">Youtube</label>
-			  				<input type="url"  id="validationWebsite" name="website" class="form-control" placeholder="Website" value="" required>
+			  				<input type="url"  id="validationWebsite" name="Youtube" class="form-control" placeholder="Website" value="" required>
 		
 			  			</div> 
 			  			<div class="table-row">
 			  				<label for="validationImage" class="form-label">Image</label><br>
-			  				<input id="validationImage" name="image" type="url" class="form-control" placeholder="Paste picture url here" value="" required>
+			  				<input id="validationImage" name="Image" type="url" class="form-control" placeholder="Paste picture url here" value="" required>
 			  			</div>
 			  			<div class="table-row">
 			  				<label for="validationImage" class="form-label">QR image</label><br>
 							  <canvas id="canvas"></canvas>
-			  				<input id="validationImage" name="image" type="url" class="form-control" placeholder="Paste picture url here" value="" required>
+			  				<input id="validationImage" name="QR image" type="url" class="form-control" placeholder="Paste picture url here" value="" required>
 			  			</div>
 										
 			  			<div class="table-row">
