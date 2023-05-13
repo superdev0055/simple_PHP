@@ -44,35 +44,78 @@
 		  			?>
 			  		<form class="row g-3 needs-validation" novalidate method="post" >
 			  			<div class="table-row">
-			  				<label for="validationName" class="form-label">Name</label>
+			  				<label for="validationName" class="form-label">First Name</label>
 			  				<input type="text" id="validationName" name="name" class="form-control" minlength="3" placeholder="Name" value="" required>
 		  				    <div class="invalid-feedback">
 						      Name is mandatory
 						    </div>
 			  			</div>  	
 			  			<div class="table-row">
-			  				<label for="validationUsername" class="form-label">Username</label>
+			  				<label for="validationUsername" class="form-label">Last Name</label>
 			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
 			  				<div class="invalid-feedback">
 			  					Username is required and it must be more than 6 and less than 16 character
 			  				</div>
 			  			</div>  
 			  			<div class="table-row">
-			  				<label for="validationEmail" class="form-label">Email</label>
+			  				<label for="validationUsername" class="form-label">Position</label>
+			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<div class="invalid-feedback">
+			  					Username is required and it must be more than 6 and less than 16 character
+			  				</div>
+			  			</div>  
+			  			<div class="table-row">
+			  				<label for="validationUsername" class="form-label">Phone Number</label>
+			  				<input type="number" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<div class="invalid-feedback">
+			  					Username is required and it must be more than 6 and less than 16 character
+			  				</div>
+			  			</div>  
+			  			<div class="table-row">
+			  				<label for="validationUsername" class="form-label">Whatsapp Number</label>
+			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<div class="invalid-feedback">
+			  					Username is required and it must be more than 6 and less than 16 character
+			  				</div>
+			  			</div>  
+			  			<div class="table-row">
+			  				<label for="validationUsername" class="form-label">Email</label>
+			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<div class="invalid-feedback">
+			  					Username is required and it must be more than 6 and less than 16 character
+			  				</div>
+			  			</div>  
+			  			<div class="table-row">
+			  				<label for="validationUsername" class="form-label">Facebook</label>
+			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<div class="invalid-feedback">
+			  					Username is required and it must be more than 6 and less than 16 character
+			  				</div>
+			  			</div>  
+			  			<div class="table-row">
+			  				<label for="validationUsername" class="form-label">Twiter</label>
+			  				<input type="text" id="validationUsername" name="username" class="form-control" minlength="6" maxlength="16" placeholder="Username" value="" required>
+			  				<div class="invalid-feedback">
+			  					Username is required and it must be more than 6 and less than 16 character
+			  				</div>
+			  			</div>  
+
+			  			<div class="table-row">
+			  				<label for="validationEmail" class="form-label">Instagram</label>
 			  				<input type="email" id="validationEmail" name="email" class="form-control" placeholder="Email" value="" required>
 			  				<div class="invalid-feedback">
 			  					It must be valid email
 			  				</div>
 			  			</div>  
 			  			<div class="table-row">
-			  				<label for="validationPhone" class="form-label">Phone</label>
+			  				<label for="validationPhone" class="form-label">Tiktok</label>
 			  				<input type="tel" id="validationPhone" name="phone" minlength="3" class="form-control" placeholder="Phone" value="" required>
 			  				<div class="invalid-feedback">
 			  					It must be valid phone
 			  				</div>
 			  			</div> 		
 			  			<div class="table-row">
-			  				<label for="validationWebsite" class="form-label">Website</label>
+			  				<label for="validationWebsite" class="form-label">Youtube</label>
 			  				<input type="url"  id="validationWebsite" name="website" class="form-control" placeholder="Website" value="" required>
 			  				<div class="invalid-feedback">
 			  					It must be valid website
@@ -82,6 +125,11 @@
 			  				<label for="validationImage" class="form-label">Image</label><br>
 			  				<input id="validationImage" name="image" type="url" class="form-control" placeholder="Paste picture url here" value="" required>
 			  			</div>
+			  			<div class="table-row">
+			  				<label for="validationImage" class="form-label">QR image</label><br>
+			  				<input id="validationImage" name="image" type="url" class="form-control" placeholder="Paste picture url here" value="" required>
+			  			</div>
+										
 			  			<div class="table-row">
 			  				<input type="submit" class="btn btn-success btn-create" value="Submit" >
 							<a href="index.php" class="btn btn-secondary">
